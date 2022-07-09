@@ -15,6 +15,19 @@ It allows you to make .exe to hide the source code of the infrastructures you wa
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
+### Run and Export
+- After running the export command, it will create a .exe in the `./build/` directory and you can share it, you don't need to export the files.
+
+```bash
+npm install --save --force
+# or
+yarn install
+```
+```bash
+npm run export
+# or
+yarn export
+```
 
 ### Built With
 
