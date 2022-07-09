@@ -38,6 +38,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 * [@voiddevs.org/slashbot](https://www.npmjs.com/package/@voiddevs.org/slashbot)
 * [pkg](https://www.npmjs.com/package/pkg)
 * [axios](https://www.npmjs.com/package/axios)
+* [cute-logs](https://www.npmjs.com/package/cute-logs)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
