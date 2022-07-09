@@ -1,0 +1,8 @@
+{
+    "name": "Executable Discord Bot",
+    "developer": "clqu",
+    "version": "1.0.0",
+    "licenseApi": "https://api.clqu.live/api/v1/license",
+    "__comment": "Method: POST, Body: { \"key\": \"123456789\" }",
+    "__comment_response": "{ \"status\": \"success\", \"message\": \"License is valid\" }"
+}

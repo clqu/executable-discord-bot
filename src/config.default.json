@@ -1,0 +1,11 @@
+{
+    "$client": {
+        "token": "",
+        "$presence": {
+            "name": "❤️ clqu",
+            "type": "WATCHING",
+            "status": "dnd"
+        }
+    },
+    "licenseKey": ""
+}

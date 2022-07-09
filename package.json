@@ -1,0 +1,17 @@
+{
+  "name": "licensed-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/",
+  "scripts": {
+    "export": "pkg ./src/start.js -C --targets node16-win-x64 --bundle -o \"build/Executable Discord Bot\""
+  },
+  "author": "clqu",
+  "license": "MIT",
+  "dependencies": {
+    "@voiddevs.org/slashbot": "^1.1.8",
+    "axios": "^0.27.2",
+    "cute-logs": "^0.0.1",
+    "discord.js": "^13.8.0"
+  }
+}
