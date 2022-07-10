@@ -7,7 +7,7 @@ const Logger = require('./lib/fileLogger');
 const logger = global.logger = new Logger();
 
 try {
-    const config = global.config = readFileSync('./config.json', 'utf8');
+    const config = global.config = JSON.parse(readFileSync('./config.json'));
     const axios = require('axios');
 
     if (!config.licenseKey) {
