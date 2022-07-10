@@ -11,8 +11,14 @@ const $ = new Client({
     ]
 });
 
-$.commandLoader('./src/client/commands/', '.js', (cmd) => {
-    console.log(`(!): ${cmd} command loaded.`)
+$.setCommand({
+    name: "ping",
+    description: "Pong...",
+    options: [],
+    permissions: [],
+    run: async (client, interaction) => {
+        return interaction.reply(`Pong... ${client.ws.ping}ms`);
+    }
 });
 
 $.client.on('ready', () => {
